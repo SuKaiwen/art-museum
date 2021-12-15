@@ -1,0 +1,37 @@
+.nav {
+    height: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 16px;
+    z-index: 2;
+    border-bottom: 1px solid rgba(255,255,255,.25);
+}
+
+@media(width < 600px) {
+    .nav{
+        font-size: 12px;
+    }
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.nav ul li a {
+    margin: 5px 15px;
+}
+
+.navLogo{
+    align-items: left;
+}

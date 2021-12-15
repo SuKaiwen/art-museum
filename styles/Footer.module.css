@@ -1,0 +1,27 @@
+.footerContainer{
+    padding: 2%;
+    height: 400px;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex: row;
+    justify-content: space-evenly;
+    font-size: 12px;
+    padding-left: 10%;
+    padding-right: 10%;
+    flex-wrap: wrap;
+}
+
+.footerCol{
+    width: 22%;
+}
+
+.footerTitle{
+    font-weight: bold;
+}
+
+@media (width < 600px) {
+    .footerCol{
+        width: 45%;
+    }
+}

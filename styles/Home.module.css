@@ -1,5 +1,72 @@
 .container {
-  padding: 0 2rem;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  color: white;
+}
+
+.button {
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  border: transparent;
+  font-size: 15px;
+  font-family: inherit;
+  font-weight: bold;
+}
+
+.imageContainer{
+  overflow: hidden;
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.standardGrid {
+  width: 100%;
+  height: 90vh;
+  min-height: 800px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 200px;
+}
+
+.openingGrid {
+  width: 100%;
+  height: 130vh;
+  min-height: 1000px;
+  display: flex;
+  flex-direction: row;
+}
+
+.rightText{
+  text-align: right;
+}
+
+.openingCol {
+  padding: 4%;
+  width: 50%;
+}
+
+.openingCol h1 {
+  font-size: 90px !important;
+  font-weight: 100;
+}
+
+.openingCol h2{
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.openingCol p{
+  font-size: 17px;
+}
+
+.secondCol {
+  width: 50%;
+  background-image: url("../public/images/main.jpg");
+  background-size: cover;
+  background-color:black;
 }
 
 .main {
@@ -10,6 +77,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.mainText{
+  font-family: 'Cormorant', serif;
+}
+
+.mainTitle{
+  font-size: 90px;
+  font-weight: 100;
 }
 
 .footer {
@@ -113,4 +189,41 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.leftBorder{
+  width: 70%;
+  border-left: 5px solid white;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.exhibition{
+  background-color: white;
+  color: black;
+  flex-direction: column;
+}
+
+.exhibitionGrid{
+  display: flex;
+  margin-top: 20px;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.exhibitionCard{
+  border: 1px solid black;
+  margin-right: 20px;
+}
+
+.exhibitionCardImage{
+  width: 1000px;
+  height: 500px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.exhibitionTitle{
+  padding: 4%;
+  width: 100%;
 }
