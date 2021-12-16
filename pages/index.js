@@ -6,6 +6,8 @@ import monalisa from '../public/images/monalisa.jpg';
 import venus from '../public/images/venus.jpg';
 import wing from '../public/images/wing.jpg';
 import medusa from '../public/images/medusa.jpg';
+import oath from '../public/images/oath.jpg';
+import liberty from '../public/images/liberty.jpg';
 
 export default function Home() {
 
@@ -78,20 +80,45 @@ export default function Home() {
         </div>
       </div>
       <div className = {`${styles.standardGrid} ${styles.exhibition}`}>
-        <div className = {styles.exhibitionTitle}>
-          <div className = {styles.mainTitle}>EXHIBITIONS</div>
-        </div>
-
         <div className = {styles.exhibitionGrid}>
-          <div className = {styles.exhibitionCard}>
-            <div className = {styles.exhibitionCardImage}>
-              <Image src = {medusa} />
+          <div className = {styles.exhibitionColMain}>
+            <div className = {styles.exhibitionTitle}>GA</div>
+            <div className = {styles.exhibitionText}>
+            </div>
+            <div className = {styles.exhibitionText}>
+              <p>The museum opened on 10 August 1793 with an exhibition of 537 paintings, the majority of the works being royal and confiscated church property. </p>
+              <p>The collection was further increased during the reigns of Louis XVIII and Charles X, and during the Second French Empire the museum gained 20,000 pieces.</p>
+              <p>The Musée du Louvre contains more than 380,000 objects and displays 35,000 works of art in eight curatorial departments with more than 60,600 square metres (652,000 sq ft) dedicated to the permanent collection.</p>
             </div>
           </div>
-          <div className = {styles.exhibitionCard}>
-            <div className = {styles.exhibitionCardImage}>
-              <Image src = {venus} />
+          <div className = {styles.exhibitionCol}>
+            <div className = {styles.exhibitionText}>
             </div>
+            <div className = {styles.exhibitionTitle}>LL</div>
+            <div className = {styles.exhibitionTitle}>ERY</div>
+          </div>
+          <div className = {styles.exhibitionCol}>
+            <div className = {styles.exhibitionText}>
+              <h3>Our Gallery</h3>
+              <hr />
+              <p>Explore the former palace of the kings of France – now the largest museum in the world covering almost 10,000 years of history! The palace is divided into three wings: Richelieu, Sully and Denon. Take your pick!</p>
+            </div>
+            <div className = {styles.exhibitionText}>
+              <p>There are plenty of good reasons to visit the Louvre! So many works of art to discover in this fabulous museum that used to be a palace! So plan your visit in advance to make the most of it. Why not pick one of our visitor trails to follow a theme-based tour? And when you need a break, where better than the museum’s restful gardens?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className = {`${styles.standardGrid} ${styles.exhibition}`}>
+        <div className = {styles.exhibitionGrid}>
+          <div className = {styles.paintingCol}>
+            <Image src = {medusa} alt = "" />
+          </div>
+          <div className = {styles.paintingCol}>
+            <Image src = {liberty} alt = "" />
+          </div>
+          <div className = {styles.paintingCol}>
+            <Image src = {oath} alt = "" />
           </div>
         </div>
       </div>

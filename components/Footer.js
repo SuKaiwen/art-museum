@@ -5,12 +5,11 @@ function Footer(props) {
     return (
         <div className = {footerStyles.footerContainer}>
             <div className = {footerStyles.footerCol}>
-                <p className = {footerStyles.footerTitle}>About Us</p>
-                <hr />
-                <p>NASA</p>
-                <p>Our Journey</p>
-                <p>Achievements</p>
-                <p>Future</p>
+                <h1>LOURVE MUSEUM</h1>
+                <div className = {footerStyles.yellowBox}>
+
+                </div>
+                <p>The Louvre is the world's largest museum and houses one of the most impressive art collections in history. The magnificent, baroque-style palace and museum — LeMusée du Louvre in French — sits along the banks of the Seine River in Paris.</p>
             </div>
             <div className = {footerStyles.footerCol}>
                 <p className = {footerStyles.footerTitle}>Missions</p>

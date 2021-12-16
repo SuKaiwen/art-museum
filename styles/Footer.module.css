@@ -10,6 +10,7 @@
     padding-left: 10%;
     padding-right: 10%;
     flex-wrap: wrap;
+    min-height: 500px;
 }
 
 .footerCol{
@@ -24,4 +25,10 @@
     .footerCol{
         width: 45%;
     }
+}
+
+.yellowBox{
+    height: 100px;
+    width: 100px;
+    border: 2px solid yellow;
 }

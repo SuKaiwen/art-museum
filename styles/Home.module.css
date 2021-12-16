@@ -201,29 +201,47 @@
 .exhibition{
   background-color: white;
   color: black;
+  display: flex;
   flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-top: 0px !important;
 }
 
 .exhibitionGrid{
   display: flex;
-  margin-top: 20px;
-  overflow-x: hidden;
-  width: 100%;
+  flex-direction: row;
+  margin-top: 200px;
+  width: 90%;
+  justify-content: space-evenly;
 }
 
-.exhibitionCard{
-  border: 1px solid black;
-  margin-right: 20px;
+.exhibitionCol{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
 }
 
-.exhibitionCardImage{
-  width: 1000px;
-  height: 500px;
-  object-fit: cover;
-  overflow: hidden;
+.exhibitionColMain{
+  text-align: right;
+  width: 50%;
 }
 
 .exhibitionTitle{
   padding: 4%;
   width: 100%;
+  font-size: 33vh;
+  line-height: 80%;
+}
+
+.exhibitionText{
+  height: 33vh;
+  width: 100%;
+  padding: 10px;
+}
+
+.paintingCol{
+  width: 32%;
+  object-fit: cover;
 }
