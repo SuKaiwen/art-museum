@@ -20,4 +20,3 @@ Main/home page:
 ![image](https://user-images.githubusercontent.com/56058518/146135472-610e09dd-e019-4dc7-9e74-fa0f20c5f04d.png)
 ![image](https://user-images.githubusercontent.com/56058518/146135560-8bd0f110-5e55-483a-a079-0ba64cc68af8.png)
 ![image](https://user-images.githubusercontent.com/56058518/146135611-3c1473b3-458f-4169-a004-bf984f198b68.png)
-![image](https://user-images.githubusercontent.com/56058518/146135638-4fa289cd-4b57-4a3f-8c35-f0221ffb8d4b.png)
