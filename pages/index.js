@@ -112,13 +112,28 @@ export default function Home() {
       <div className = {`${styles.standardGrid} ${styles.exhibition}`}>
         <div className = {styles.exhibitionGrid}>
           <div className = {styles.paintingCol}>
-            <Image src = {medusa} alt = "" />
+            <div className = {styles.paintingContainer}>
+              <Image src = {medusa} alt = "" />
+            </div>
+            <h3>The Raft of the Medusa</h3>
+            <p>Théodore Géricault</p>
+            <p>1818–1819</p>
           </div>
           <div className = {styles.paintingCol}>
-            <Image src = {liberty} alt = "" />
+            <div className = {styles.paintingContainer}>
+              <Image src = {liberty} alt = "" />  
+            </div>
+            <h3>Liberty Leading the People</h3>
+            <p>Eugène Delacroix</p>
+            <p>1830</p>
           </div>
           <div className = {styles.paintingCol}>
-            <Image src = {oath} alt = "" />
+            <div className = {styles.paintingContainer}>
+              <Image src = {oath} alt = "" />  
+            </div>
+            <h3>Oath of the Horatii</h3>
+            <p>Jacques-Louis David</p>
+            <p>1784</p>
           </div>
         </div>
       </div>

@@ -5,33 +5,36 @@ function Footer(props) {
     return (
         <div className = {footerStyles.footerContainer}>
             <div className = {footerStyles.footerCol}>
-                <h1>LOURVE MUSEUM</h1>
+                <h2>LOURVE MUSEUM</h2>
                 <div className = {footerStyles.yellowBox}>
 
                 </div>
                 <p>The Louvre is the world's largest museum and houses one of the most impressive art collections in history. The magnificent, baroque-style palace and museum — LeMusée du Louvre in French — sits along the banks of the Seine River in Paris.</p>
             </div>
             <div className = {footerStyles.footerCol}>
-                <p className = {footerStyles.footerTitle}>Missions</p>
+                <h2>ABOUT</h2>
                 <hr />
-                <p>Moon</p>
-                <p>Mars</p>
-                <p>Rovers</p>
-                <p>Rockets</p>
+                <p>Visitor rules</p>
+                <p>About Us</p>
+                <p>Covid-19 Rules</p>
             </div>
             <div className = {footerStyles.footerCol}>
-                <p className = {footerStyles.footerTitle}>Security</p>
+                <h2>OUR WEBSITES</h2>
                 <hr />
-                <p>No Fear Act</p>
-                <p>FOIA</p>
-                <p>Privacy</p>
+                <p>Online Tickets</p>
+                <p>Collections</p>
+                <p>Editions</p>
+                <p>Donate Online</p>
+                <p>Press</p>
             </div>
             <div className = {footerStyles.footerCol}>
-                <p className = {footerStyles.footerTitle}>Official</p>
+                <h2>CONTACT</h2>
                 <hr />
                 <p>Contact Us</p>
-                <p>Office of Special Council</p>
-                <p>Agency Financial Reports</p>
+                <p>FAQ</p>
+                <p>Give Us Your Feedback</p>
+                <p>Careers</p>
+                <p>Private Events and Shoots</p>
             </div>
         </div>
     );
